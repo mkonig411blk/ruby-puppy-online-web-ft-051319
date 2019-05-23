@@ -7,10 +7,11 @@ class Dog
     @name = name
     @@all >> self
   end
+  
   def self.all
     puts @@all
   end
   
   def self.clear_all
-    
+  end
 end
