@@ -11,6 +11,7 @@ class Dog
   def self.all
     @@all.each do |objectid|
       puts objectid.name
+    end
   end
   
   def self.clear_all
